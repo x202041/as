@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>test</title>
+  <title>報告等</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="index.php">
 </head>
 <body>
-<!-- Start your code here -->
-<!-- X軸よ永遠に -->
-  <form action="index.php" method="post">
-      <input type="text" name="name" />
-      <button type="submit">送信</button>
-    </form>
+  <script>
+    var z=0;
+    var jad=prompt("パスワードを入力してください。");
+    if(jad==="X軸よ永遠に"){
+      z=1;
+    }
+  </script>
+  <div class="az">
+  <h3>
+    報告書
+    </h3>
+  <script>
+    if(z===1){
+      document.writeln("<pre>");
+      document.writeln("テスト実装");
+      document.writeln("5/21");
+      document.writeln("</pre>");
+    }
+  </script>
+  </div>
 </body>
 </html>
